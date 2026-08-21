@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>DARK DEVIL PANEL - Login</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main class="page">
+
+    <section class="login-card">
+
+      <div class="brand">
+        <div class="brand-icon">😈</div>
+
+        <h1>
+          <span>DARK</span> DEVIL
+        </h1>
+
+        <p>KEY MANAGEMENT CONTROL PANEL</p>
+      </div>
+
+      <div class="login-box">
+
+        <h2>Welcome Back!</h2>
+
+        <p class="subtitle">
+          Sign in to continue to your admin dashboard
+        </p>
+
+        <form id="loginForm">
+
+          <label for="username">
+            USERNAME
+          </label>
+
+          <input
+            id="username"
+            type="text"
+            placeholder="Enter username"
+            autocomplete="username"
+            required
+          >
+
+          <label for="password">
+            PASSWORD
+          </label>
+
+          <div class="password-wrapper">
+
+            <input
+              id="password"
+              type="password"
+              placeholder="Enter password"
+              autocomplete="current-password"
+              required
+            >
+
+            <button
+              type="button"
+              id="togglePassword"
+              class="eye-button"
+            >
+              👁
+            </button>
+
+          </div>
+
+          <div
+            id="loginMessage"
+            class="message"
+          ></div>
+
+          <button
+            type="submit"
+            id="loginButton"
+            class="login-button"
+          >
+            🔒 LOGIN
+          </button>
+
+        </form>
+
+        <div class="secure">
+          <span></span>
+          SECURE ADMIN ACCESS
+          <span></span>
+        </div>
+
+        <div class="footer">
+          DARK DEVIL PANEL
+          <br>
+          <small>Key Management Control Panel</small>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="./app.js"></script>
+
+</body>
+</html>
