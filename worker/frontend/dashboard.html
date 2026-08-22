@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DARK DEVIL PANEL - Admin Dashboard</title>
+  <link rel="stylesheet" href="./dashboard.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div>
+      <strong>😈 DARK DEVIL</strong>
+      <small>KEY MANAGEMENT CONTROL PANEL</small>
+    </div>
+
+    <button id="logoutButton">Logout</button>
+  </header>
+
+  <main class="container">
+
+    <section class="welcome">
+      <h1>Admin Dashboard</h1>
+      <p id="adminInfo">Loading...</p>
+    </section>
+
+    <section class="cards">
+
+      <div class="card">
+        <span>Balance</span>
+        <strong id="balance">৳0</strong>
+      </div>
+
+      <div class="card">
+        <span>Total Keys</span>
+        <strong id="keyCount">0</strong>
+      </div>
+
+      <div class="card">
+        <span>Apps</span>
+        <strong id="appCount">0</strong>
+      </div>
+
+      <div class="card">
+        <span>Resellers</span>
+        <strong id="resellerCount">0</strong>
+      </div>
+
+    </section>
+
+    <section class="menu">
+
+      <button data-section="keys">🔑 Keys</button>
+      <button data-section="generate">⚡ Generate Key</button>
+      <button data-section="resellers">👥 Resellers</button>
+      <button data-section="apps">📱 Apps</button>
+      <button data-section="settings">⚙️ Settings</button>
+      <button data-section="profile">👤 Admin Profile</button>
+
+    </section>
+
+    <section id="content" class="content">
+
+      <h2>Dashboard</h2>
+
+      <p>
+        Select an option above to manage your DARK DEVIL control panel.
+      </p>
+
+    </section>
+
+  </main>
+
+  <script src="./dashboard.js"></script>
+
+</body>
+</html>
